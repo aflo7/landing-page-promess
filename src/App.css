@@ -1,0 +1,108 @@
+.top-nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  color: rgb(15, 100, 108);
+  padding: 10px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.top-nav-wrapper {
+  background-color: rgb(247, 247, 247);
+}
+
+.mobile-menu-wrapper {
+  display: flex;
+  gap: 5px;
+  text-transform: uppercase;
+}
+
+.promess-logo {
+  height: 60px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.main-wrapper {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://www.promessinc.com/wp-content/uploads/2021/08/home-pdc.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+main {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.develop-text {
+  color: rgb(184,184,184);
+}
+
+.learn-more-btn {
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: rgb(15, 100, 108);
+}
+
+.process-development-wrapper {
+  max-width: 500px;
+  background: rgb(0, 0, 0, 0.75);
+  margin: 0px 10px;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.proof-of-concept-text {
+  font-size: 3rem;
+  font-weight: normal;
+}
+
+.desktop-menu-wrapper {
+  display: none;
+}
+
+.process-development-text {
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 1000px) {
+  .mobile-menu-wrapper {
+    display: none;
+  }
+
+  .top-nav {
+    justify-content: flex-end;
+  }
+
+  .desktop-menu-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .process-development-wrapper {
+    padding-top: 180px;
+    padding-bottom: 180px;
+  }
+}
